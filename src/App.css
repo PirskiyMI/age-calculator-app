@@ -1,1 +1,25 @@
+.wrapper {
+   background-color: var(--color-bg);
+   font-family: var(--family);
+   font-style: italic;
+   font-weight: var(--fw-b);
+   overflow: hidden;
+}
 
+.container {
+   min-height: 100vh;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.calculator {
+   max-width: 1440px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   padding: 40px 20px;
+   border-radius: 15px 15px 80px 15px;
+   background-color: var(--color-body);
+}
